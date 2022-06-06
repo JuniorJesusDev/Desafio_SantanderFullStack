@@ -1,0 +1,133 @@
+.html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin-top: 10px;
+  background: #d4dded;
+  font-family: Verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1, 45px;
+  max-width: 900px;
+  margin: auto;
+}
+.p {
+  margin: 0 0 10px;
+  display: block;
+  box-sizing: border-box;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#title,
+.subtitle,
+.post_title {
+  color: blue;
+}
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.post {
+  background: white;
+  padding: 10px 5px;
+  border: 2px solid black;
+}
+.home1 {
+  background: aquamarine;
+  padding: 15px 10px 5px 0;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.logo_inicio {
+  display: inline;
+  width: 10%;
+  margin-left: 10px;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.home1 h1 {
+  font-family: verdana;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-left: 30px;
+  margin-right: auto;
+}
+.subtitle {
+  text-transform: lowercase;
+  text-decoration: overline;
+}
+.post_title {
+  font-family: Verdana, Arial;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+.contact_list {
+  list-style-type: none;
+  padding-left: 15px;
+}
+.contact_list li a {
+  text-decoration: none;
+}
+.flex {
+  max-width: 900px;
+  padding: 5px;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url(img/fundo_menu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.item {
+  margin: 5px;
+}
+.item_2 {
+  margin: 5px;
+}
+.item_3 {
+  margin: 5px;
+}
+a {
+  text-decoration: line-through;
+  color: crimson;
+  border: 2px solid black;
+  background-color: rgb(255, 218, 9);
+}
+.flex a {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+}
+.item:hover a span {
+  background-color: black;
+  color: #d4dded;
+}
+.item_2:hover a span {
+  background-color: black;
+  color: #d4dded;
+}
+.item_3:hover a span {
+  background-color: black;
+  color: #d4dded;
+}

@@ -1,0 +1,246 @@
+.html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin-top: 10px;
+  background: #d4dded;
+  font-family: Verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1, 45px;
+  max-width: 900px;
+  margin: auto;
+}
+.p {
+  margin: 0 0 10px;
+  display: block;
+  box-sizing: border-box;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.flex a {
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: rgb(255, 255, 255);
+}
+.item:hover a span {
+  background-color: black;
+  color: #d4dded;
+}
+.item_2:hover a span {
+  background-color: black;
+  color: #d4dded;
+}
+.item_3:hover a span {
+  background-color: black;
+  color: #d4dded;
+}
+.flex {
+  max-width: 900px;
+  padding: 5px;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url(img/fundo_menu.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.flex a {
+  color: black;
+  text-decoration: none;
+}
+.item {
+  margin: 5px;
+}
+.item_2 {
+  margin: 5px;
+}
+.item_3 {
+  margin: 5px;
+}
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.flex-item {
+  background: blue;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+  margin: 5px;
+}
+.row {
+  flex-direction: row;
+}
+.row-reverse li {
+  background-color: red;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+.column {
+  float: left;
+  flex-direction: column;
+}
+.column li {
+  background-color: orange;
+}
+.column-reverse {
+  float: right;
+  flex-direction: column-reverse;
+}
+.column-reverse li {
+  background: #16c79b;
+}
+.flex-container2 {
+  display: flex;
+  height: 150px;
+  border: 2px solid black;
+  max-width: 300px;
+}
+.item2 {
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  width: 100px;
+  min-width: 100px;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.wrap-revese {
+  flex-wrap: wrap-reverse;
+}
+.flex-container3 {
+  display: flex;
+  border: 1px solid blue;
+  max-width: 500px;
+}
+.default {
+  flex-flow: row nowrap;
+}
+.item3 {
+  background-color: blueviolet;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.wrap2 {
+  flex-flow: row wrap;
+}
+.column2 {
+  flex-flow: column wrap;
+  max-height: 200px;
+  max-width: 300px;
+}
+.container {
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+}
+.item4 {
+  background-color: cornflowerblue;
+  margin: 5px;
+  text-align: center;
+  color: aliceblue;
+}
+.h1flex-start {
+  margin-top: 300px;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.column3 {
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.container2 {
+  margin-top: 15px;
+  max-width: 350px;
+  border: 1px solid black;
+  display: flex;
+}
+.item5 {
+  background-color: rgb(49, 56, 56);
+  margin: 5px;
+  color: #d4dded;
+  text-align: center;
+  flex: 1;
+}
+.center {
+  align-items: center;
+}
+.stretch {
+  align-items: stretch;
+}
+.central {
+  height: 300px;
+  justify-content: center;
+}
+.central .item5 {
+  flex: 0;
+  padding: 20px;
+}
+.container3 {
+  height: 400px;
+  max-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.item6 {
+  background-color: orange;
+  padding: 0 5px;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+  color: #d4dded;
+}
+.stretch2 {
+  align-content: stretch;
+}
+.center2 {
+  align-content: center;
+}
